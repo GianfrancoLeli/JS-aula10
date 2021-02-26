@@ -32,7 +32,7 @@ function registrar() {
 	registros = Antigos [0];
 
 	let filmesMaisVelhos = document.querySelector("#comparar");
-	filmesMaisVelhos.innerHTML =`${registros.nome}, é o filme mais velho ${registros.idade} anos`;
+	filmesMaisVelhos.innerHTML =`${registros.nome}, é o filme mais velho com ${registros.idade} anos tendo sido lançado`;
 
 	nome.value = '';
 	idade.value = '';
@@ -59,10 +59,8 @@ function obterMaisVelho() {
 	function reiniciar() {
 		let cadastros ='';
 		let registrados ='';
-		let pessoasMaisVelhas ='';
-
+		let filmesMaisVelhas ='';
 
 	}
-
 
 }
