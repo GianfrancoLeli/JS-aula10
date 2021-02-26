@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS-aula10</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <img src="img/banner.jpg" alt="Background" width="1300" height="300">
+    
+
+    <form id="formFilmes" class="formulario">
+        
+        <h1 align='center'><em><i><font color="white">Curiosidades sobre filmes de sucesso!!!</font></i></em></h1>
+        <label>Nome do Filme
+            <input type="text" name="Nome do Filme" id="nome"  class="formulario-input" required>
+        </label>
+        
+        <label>Idade do Filme
+            <input type="number" name="Idade do Filme" id="idade"  class="formulario-input"  min="0" max="100" required>
+        </label>
+        
+       <label>Nacionalidade do Filme
+            <input type="text" name="Nacionalidade do Filme" id="nacionalidade" class="formulario-input" required>    
+       </label>
+        
+        <button type="button" id="btn" class="formulario-submit" onclick="registrar()">Registrar</button>
+        <button type="reset" id="rst" class="formulario-reset" onclick="reiniciar()">Reiniciar</button>
+    </form>
+
+    <h3 align='center'><u>Filmes Registradas</u></h3>
+    <ul id="registrados">
+
+    </ul>
+    <p id="comparar">
+
+    </p>
+
+    
+    
+    
+    <script src="script.js"></script>
+</body>
+</html>
